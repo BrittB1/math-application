@@ -10,9 +10,9 @@ public class MathApp {
         double highestSalary = Math.max(bobSalary, garySalary);
 
         if (bobSalary == highestSalary) {
-            System.out.println("Bob's salary is higher");
+            System.out.println("Bob's salary is higher at " + bobSalary + " dollars. ");
         } else {
-            System.out.println("Gary's salary is higher");
+            System.out.println("Gary's salary is higher at " + garySalary + " dollars.");
         }
 
         // Question 2
@@ -42,5 +42,17 @@ public class MathApp {
     // find square root using Math.sqrt(), passing in our number var as an argument
     double squareRoot = Math.sqrt(number);
         System.out.println("The square root of " + number + " is " + squareRoot);
+
+        // Question 5
+
+        int x1 = 5;
+        int y1 = 10;
+
+        int x2 = 85;
+        int y2 = 50;
+
+        double distance = Math.sqrt((Math.pow(x2-x1,2) + Math.pow(y2-y1,2)));
+
+        System.out.println("The distance is: " + distance);
     }
 }
