@@ -32,5 +32,11 @@ public class MathApp {
         double area = Math.PI * Math.pow(radius, 2);
 
         System.out.println("The area of the circle is " + area);
-        }
+
+        double number = 5.0;
+
+    // find square root using Math.sqrt(), passing in our number var as an argument
+    double squareRoot = Math.sqrt(number);
+        System.out.println("The square root of " + number + " is " + squareRoot);
     }
+}
