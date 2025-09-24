@@ -13,5 +13,17 @@ public class MathApp {
         } else {
             System.out.println("Gary's salary is higher");
         }
+
+
+        double carPrice = 15250;
+        double truckPrice = 20000;
+
+        double smallestPrice = Math.min(carPrice, truckPrice);
+
+        if (carPrice == smallestPrice) {
+            System.out.println("The car has the smallest price.");
+        } else {
+            System.out.println("The truck has the smallest price.");
+        }
     }
 }
