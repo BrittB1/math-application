@@ -25,5 +25,12 @@ public class MathApp {
         } else {
             System.out.println("The truck has the smallest price.");
         }
+        // first we need to define what the radius of the circle is
+        double radius = 7.25;
+
+        // then, we use the formula area = pi * radius2
+        double area = Math.PI * Math.pow(radius, 2);
+
+        System.out.println("The area of the circle is " + area);
+        }
     }
-}
