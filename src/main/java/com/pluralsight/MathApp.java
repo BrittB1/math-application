@@ -3,6 +3,7 @@ package com.pluralsight;
 public class MathApp {
     public static void main(String[] args) {
 
+        //Question 1
         double bobSalary = 19250;
         double garySalary = 24552;
 
@@ -14,7 +15,7 @@ public class MathApp {
             System.out.println("Gary's salary is higher");
         }
 
-
+        // Question 2
         double carPrice = 15250;
         double truckPrice = 20000;
 
@@ -25,6 +26,8 @@ public class MathApp {
         } else {
             System.out.println("The truck has the smallest price.");
         }
+
+        // Question 3
         // first we need to define what the radius of the circle is
         double radius = 7.25;
 
@@ -33,6 +36,7 @@ public class MathApp {
 
         System.out.println("The area of the circle is " + area);
 
+        // Question 4
         double number = 5.0;
 
     // find square root using Math.sqrt(), passing in our number var as an argument
